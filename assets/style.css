@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+:root{
+    --text-color: white;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: var(--text-color);
+}
+
+header h1{
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+    margin: 15px;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
