@@ -67,6 +67,7 @@ main {
     border: solid;
     border-radius: 5px;
     margin-left: 10px;
+    color: var(--text-color);
 }
 
 .aboutme p {
@@ -74,6 +75,7 @@ main {
     margin: 10px;
     overflow-wrap: break-word;
     font-size: 16px;
+    color: var(--text-color);
 }
 
 .projects {
@@ -120,12 +122,22 @@ main {
     align-items: center;
     font-size: 22px;
     font-family: var(--text-color);
-  }
-  
+}
+
 footer {
     padding: 20px;
     margin-top: 40px;
     margin-bottom: 20px;
     background-color: #2a607c;
     color: var(--text-color);
+}
+
+@media screen and (max-width: 980px) {
+    main {
+        flex-direction: column;
+    }
+
+    .aboutme {
+        width: 95%;
+    }
 }
