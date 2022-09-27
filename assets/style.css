@@ -101,6 +101,10 @@ main {
     margin: 10px;
 }
 
+h3{
+    position: absolute;
+}
+
 .bigProject img {
     height: calc(var(--main-height)/2);
     width: 100%;
