@@ -80,7 +80,7 @@ main {
 .projects {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     height: var(--main-height);
     width: 70%;
     border-radius: 5px;
@@ -92,19 +92,21 @@ main {
     display: flex;
     height: calc(var(--main-height)/2);
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    border: solid;
-    border-width: 1px;
 }
 
 .regProject {
     display: flex;
     height: calc(var(--main-height)/4);
     width: calc(var(--main-height)/4);
-    justify-content: center;
-    align-items: center;
-    border: solid;
-    border-width: 1px;
     margin: 10px;
+}
+
+.bigProject img {
+    height: calc(var(--main-height)/2);
+    width: 100%;
+}
+
+.regProject img {
+    height: calc(var(--main-height)/4);
+    width: calc(var(--main-height)/4);
 }
