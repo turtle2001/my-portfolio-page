@@ -4,8 +4,8 @@
 
 This project was to create my own portfolio website. I used the things that I have learned so far to build this website frmo scratch so that I could display my current and future projects for future employers to see.
 
-## [Webpage](https://turtle2001.github.io/webpage-code-refactor/)
-![Site](portfolio-webpage.png)
+## [Webpage](https://github.com/turtle2001/my-portfolio-page)
+![Site](./assets/images/portfolio-webpage.png)
 
 ## Code Snippet
 ```html
