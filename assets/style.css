@@ -4,7 +4,7 @@
     font-size: 20px;
 }
 
-:root{
+:root {
     --text-color: white;
 }
 
@@ -14,11 +14,13 @@ body {
 
 header {
     padding: 20px;
+    margin-bottom: 20px;
+    ;
     background-color: #2a607c;
     color: var(--text-color);
 }
 
-header h1{
+header h1 {
     display: inline-block;
 }
 
@@ -35,4 +37,24 @@ header nav li {
 a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 40%;
+    border: solid;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.aboutme h2 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: solid;
+    border-radius: 5px;
 }
