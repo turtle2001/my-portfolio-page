@@ -39,22 +39,33 @@ a {
     text-decoration: none;
 }
 
-.aboutme{
+.aboutme {
     display: flex;
-    justify-content: center;
-    height: 600px;
-    width: 40%;
+    flex-direction: column;
+    justify-content: top;
+    align-items: right;
+    height: 700px;
+    width: 30%;
     border: solid;
     border-radius: 5px;
     margin: 15px;
 }
 
 .aboutme h2 {
-    width: 95%;
     display: flex;
+    height: 60px;
+    width: 95%;
+    margin: 5px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
-    height: 50px;
     border: solid;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.aboutme p {
+    display: flex;
+    margin: 10px;
+    overflow-wrap: break-word;
 }
