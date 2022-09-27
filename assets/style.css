@@ -16,7 +16,6 @@ body {
 header {
     padding: 20px;
     margin-bottom: 20px;
-    ;
     background-color: #2a607c;
     color: var(--text-color);
 }
@@ -113,4 +112,20 @@ main {
 .regProject img {
     height: calc(var(--main-height)/4);
     width: calc(var(--main-height)/4);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: var(--text-color);
+  }
+  
+footer {
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #2a607c;
+    color: var(--text-color);
 }
